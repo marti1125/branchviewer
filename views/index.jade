@@ -1,5 +1,6 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  canvas#gitGraph
+  script(type='text/javascript', src='/javascripts/gitgraph.min.js')
+  script(type='text/javascript', src='/javascripts/index.js')
